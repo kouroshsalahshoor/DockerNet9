@@ -1,10 +1,16 @@
 # Docker
 
-# containers
+# Containers
 ````
 docker ps
 docker ps -a
+````
+### Stopping container
+````
 docker stop <container id>
+````
+### Removing container
+````
 docker rm <container id>
 ````
 ### nginx
@@ -25,3 +31,6 @@ https://hub.docker.com/
 https://www.docker.com/
 
 enable hardware virtualization
+
+# Referenses
+https://downloadlynet.ir/2024/01/130360/07/from-zero-to-hero-docker-for-developers/14/
