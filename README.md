@@ -1,5 +1,9 @@
 # Docker
-
+## Images
+### create an image from a container
+````
+docker commit <container id> <image name>
+````
 ## Containers
 ### Shell access
 ````
