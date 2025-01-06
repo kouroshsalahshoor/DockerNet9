@@ -1,5 +1,16 @@
 # Docker
 ## Images
+### Sql server (official image)
+- on docker hub search for: microsoft
+- find mssql-server https://hub.docker.com/r/microsoft/mssql-server
+- go to "How to use" section"
+- 2022 image
+````
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest
+````
+- open SSMS and login to server
+- server name: localhost,1433
+- pwd should not be too short ...
 ### create an image from a container
 ````
 docker commit <container id> <image name>
