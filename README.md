@@ -9,6 +9,7 @@
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest
 ````
 - open SSMS and login to server
+- sql login
 - server name: localhost,1433
 - pwd should not be too short ...
 ### create an image from a container
