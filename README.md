@@ -1,6 +1,14 @@
 # Docker
 
 ## Containers
+### Shell access
+````
+docker exec -it <container id> <<command>|bash|ls>
+````
+#### install vim inside the container
+````
+apt-get update && apt-get install -y vim
+````
 ### log
 ````
 docker logs <container id>
@@ -8,6 +16,10 @@ docker logs <container id>
 ### Running a container deattached
 ````
 docker run -d -p 80:80 nginx
+````
+### container attached
+````
+docker attach <container id>
 ````
 ### Port mapping
 ````
